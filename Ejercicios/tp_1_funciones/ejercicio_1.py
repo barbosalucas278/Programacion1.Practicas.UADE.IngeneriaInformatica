@@ -3,12 +3,12 @@
 # caso de no haber ninguno. No utilizar operadores lógicos (and, or, not). Desarrollar 
 # también un programa para ingresar los tres valores, invocar a la función y mostrar 
 # el máximo hallado, o un mensaje informativo si éste no existe
+import sys
+sys.path.append(r'c:\Users\Lucas\Desktop\UADE\Programacion I')
+from Libs.terminalHelper import pedir_numero
 
 cantidad_de_numeros = 3
 numeros_ingresados = []
-
-def pedir_numero():
-    return int(input("Ingrese un número: "))
 
 def obtener_mayor_estricto(numeros):
     ultimo_mayor = -1
