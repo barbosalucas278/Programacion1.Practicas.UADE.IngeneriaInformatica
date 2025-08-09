@@ -19,14 +19,4 @@ def main():
     else:
         print(f'La fecha {dia}/{mes}/{anio} no es válida.')
       
-
-    
-
-
-
-
-
-
-
-
 main()

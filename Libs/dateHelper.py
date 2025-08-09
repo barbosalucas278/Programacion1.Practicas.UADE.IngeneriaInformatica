@@ -20,6 +20,4 @@ def es_bisiesto(anio):
     if anio % 4 == 0:
         if anio % 100 == 0:
             return True
-        else:
-            return False
     return False  
