@@ -18,6 +18,20 @@ total_compra = pedir_numero("Ingrese el total de la compra: ")
 dinero_recibido = pedir_numero("Ingrese el dinero recibido: ")
 
 def calcular_vuelto(total, recibido):
+    """
+    Calcula el desglose del vuelto en billetes.
+
+    Args:
+        total (int | float): El monto total a pagar.
+        recibido (int | float): El monto recibido por el cliente.
+
+    Returns:
+        list[int]: Lista con los billetes usados para dar el vuelto.
+
+    Example:
+        >>> calcular_vuelto(270, 500)
+        [100, 100, 20, 10]
+    """
     vuelto = recibido - total
     vuelto_detallado = []
     for i in range(len(BILLETES_EXISTENTES)):
