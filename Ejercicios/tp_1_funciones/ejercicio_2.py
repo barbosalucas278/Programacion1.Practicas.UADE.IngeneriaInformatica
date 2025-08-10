@@ -5,8 +5,8 @@
 # programa para verificar el comportamiento de la función.
 import sys
 sys.path.append(r'c:\Users\Lucas\Desktop\UADE\Programacion I')
-from Libs.dateHelper import validar_fecha
-from Libs.terminalHelper import pedir_numero
+from Utils.dateHelper import validar_fecha
+from Utils.terminalHelper import pedir_numero
 
 def main():
     es_fecha_valida = True

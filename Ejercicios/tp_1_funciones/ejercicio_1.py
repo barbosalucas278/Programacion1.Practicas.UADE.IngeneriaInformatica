@@ -5,7 +5,7 @@
 # el máximo hallado, o un mensaje informativo si éste no existe
 import sys
 sys.path.append(r'c:\Users\Lucas\Desktop\UADE\Programacion I')
-from Libs.terminalHelper import pedir_numero
+from Utils.terminalHelper import pedir_numero
 
 cantidad_de_numeros = 3
 numeros_ingresados = []

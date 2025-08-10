@@ -11,7 +11,7 @@
 
 import sys
 sys.path.append(r'c:\Users\Lucas\Desktop\UADE\Programacion I')
-from Libs.terminalHelper import pedir_numero
+from Utils.terminalHelper import pedir_numero
 
 BILLETES_EXISTENTES = [5000,1000,500,200,100,50,10]
 total_compra = pedir_numero("Ingrese el total de la compra: ")

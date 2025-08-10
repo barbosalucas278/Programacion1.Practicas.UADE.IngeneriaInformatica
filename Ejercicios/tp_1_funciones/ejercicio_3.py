@@ -7,8 +7,8 @@
 import sys
 sys.path.append(r'c:\Users\Lucas\Desktop\UADE\Programacion I')
 
-from Libs.numberOperationsHelper import disminuir_porcentaje
-from Libs.terminalHelper import pedir_numero
+from Utils.numberOperationsHelper import disminuir_porcentaje
+from Utils.terminalHelper import pedir_numero
 
 TARIFA_MAXIMA = 1000
 PRIMERA_FRANJA = 0.2
